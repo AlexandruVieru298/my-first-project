@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.container-mov {
+  background-color: #3f51b5;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.form-container h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.btn-form {
+  display: inline;
+  float: right;
+  background-color: #3f51b5;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 1px 5px;
+  margin: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 10px;
+}
+
+.btn-form:hover {
+  color: rgb(213, 249, 32);
+}
+
+.btn-submit {
+  float: right;
+  background-color: #fff;
+  /* Green */
+  border: none;
+  color: black;
+  padding: 1px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  border-radius: 10px;
+  display: inline;
+}
+
+
+
+.input {
+  width: 80%;
+  display: inline;
+  border: none;
+
+}
+
+.btn-submit:hover {
+  color: #333;
+}
+
+.ok-text {
+  text-align: center;
+  background-color: #65f265bf;
+}
+
+.form-div-content img {
+  display: inline;
+  float: right;
+  margin: 2.8px;
+}
+
+.form-container {
+  margin: auto;
+  margin-top: 5%;
+  width: 50%;
+  padding: 10px;
+  background-color: #333;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.form-content {
+  padding: 5%;
+}
+
+.form-h4 {
+  margin-left: 3%;
+  display: inline;
+}
+
+.form-div-content {
+  margin-bottom: 3%;
+  color: black;
+  width: 99%;
+  padding: 1%;
+  background-color: #fff;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

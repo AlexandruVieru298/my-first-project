@@ -1,0 +1,13 @@
+.center-container {
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+.myClass{
+    width:100% !important;
+}
+
+.display-flex{
+    display:flex;
+}
